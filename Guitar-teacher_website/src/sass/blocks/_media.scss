@@ -1,0 +1,11 @@
+@media (max-width: 1440px) {
+	.reviews {
+		&__slider-prev {
+			left: -80px;
+		}
+
+		&__slider-next {
+			right: -80px;
+		}
+	}
+}

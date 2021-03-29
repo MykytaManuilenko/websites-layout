@@ -1,0 +1,35 @@
+.menu {
+	&__list {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+
+		&-item {
+			&-link {
+				position: relative;
+				padding-bottom: 5px;
+				font-weight: 400;
+				font-size: 20px;
+				line-height: 26px;
+				text-decoration: none;
+				color: var(--main-text-color-black);
+
+				&::before {
+					content: '';
+					display: block;
+					position: absolute;
+					left: 0;
+					bottom: 0;
+					width: 0;
+					height: 4px;
+					background-color: var(--hover-text-yellow);
+					transition: width 0.3s ease-out;
+				}
+
+				&:hover::before {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

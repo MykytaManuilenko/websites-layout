@@ -1,0 +1,43 @@
+@import 'base/libs';
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.container {
+	max-width: 1216px;
+	margin: 0 auto;
+}
+
+@import 'blocks/title';
+@import 'blocks/subtitle';
+@import 'blocks/menu';
+@import 'blocks/buttons';
+@import 'blocks/policy';
+@import 'blocks/rating-stars';
+@import 'blocks/errors';
+
+@import 'sections/lessons';
+@import 'sections/advantages';
+@import 'sections/prices';
+@import 'sections/questions';
+@import 'sections/reviews';
+@import 'sections/about-us';
+@import 'sections/footer';
+
+@import 'blocks/media';

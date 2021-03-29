@@ -1,0 +1,29 @@
+.btn {
+	width: 305px;
+	height: 90px;
+	border: none;
+	background-color: var(--main-btn-color-black);
+	cursor: pointer;
+
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--main-text-color-white);
+
+	&--white {
+		background-color: var(--main-btn-color-white);
+		color: var(--main-text-color-black);
+	}
+
+	&--normal {
+		width: 314px;
+		height: 79px;
+		font-weight: 400;
+	}
+
+	transition: all 0.3s ease-out;
+
+	&:hover {
+		background-color: var(--hover-btn-yellow);
+		color: var(--main-text-color-black);
+	}
+}

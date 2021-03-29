@@ -1,0 +1,10 @@
+.subtitle {
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 39px;
+	color: var(--main-text-color-black);
+
+	&--white {
+		color: var(--main-text-color-white);
+	}
+}

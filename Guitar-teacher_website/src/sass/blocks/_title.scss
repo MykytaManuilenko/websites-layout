@@ -1,0 +1,16 @@
+.title {
+	margin: 0;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 55px;
+	color: var(--main-text-color-black);
+
+	&--big {
+		font-size: 80px;
+		line-height: 98px;
+	}
+
+	&--white {
+		color: var(--main-text-color-white);
+	}
+}

@@ -1,0 +1,40 @@
+.main-content__lessons {
+	padding: 89px 0 110px 0;
+}
+
+.lessons {
+	min-height: 900px;
+	background-image: url('../img/bg/lessons-bg.png');
+	background-position: top right;
+	background-size: auto;
+	background-repeat: no-repeat;
+
+	&__menu {
+		&-list {
+			width: 495px;
+			padding-left: 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+
+	&__title {
+		margin-top: 122px;
+		max-width: 576px;
+	}
+
+	&__descr {
+		margin-top: 49px;
+		max-width: 330px;
+
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 28px;
+		color: var(--main-text-color-black);
+	}
+
+	&__btn {
+		margin-top: 93px;
+	}
+}

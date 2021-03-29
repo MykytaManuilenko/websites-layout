@@ -1,0 +1,33 @@
+.main-content__advantages {
+	padding: 125px 0 185px 0;
+}
+
+.advantages {
+	min-height: 1020px;
+	background-color: #000000;
+	color: var(--main-text-color-white);
+
+	&__descr {
+		margin-top: 89px;
+	}
+
+	&__inner {
+		display: grid;
+		grid-template-columns: repeat(2, 373px);
+		grid-template-rows: repeat(2, minmax(231px, auto));
+		grid-auto-rows: minmax(231px, auto);
+		row-gap: 120px;
+		column-gap: 451px;
+	}
+
+	&__item {
+		text-align: left;
+
+		&-descr {
+			margin-top: 50px;
+			font-size: 30px;
+			font-weight: 400;
+			line-height: 42px;
+		}
+	}
+}
